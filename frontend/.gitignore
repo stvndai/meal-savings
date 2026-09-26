@@ -1,0 +1,32 @@
+# Environment files
+.env
+.env.*
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Local datasets and SQLite files
+*.csv
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+jsons/
