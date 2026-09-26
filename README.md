@@ -66,6 +66,8 @@ frontend files, and Python caches are excluded by `.gitignore`.
 - An OpenRouter API key
 - A local SQLite recipe database named `recipes.db` in the project root
 
+The app is tested using a database created from the following dataset https://www.kaggle.com/datasets/wilmerarltstrmberg/recipe-dataset-over-2m?resource=download
+
 The Python backend uses FastAPI, Uvicorn, Requests, Pillow, Pydantic,
 python-dotenv, python-multipart, and pandas (for building the recipe database).
 
